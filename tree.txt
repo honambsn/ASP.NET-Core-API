@@ -1,0 +1,151 @@
+Folder PATH listing for volume New Volume
+Volume serial number is D428-1106
+D:.
+|   tree.txt
+|   
+\---MagicAPI
+    |   appsettings.Development.json
+    |   appsettings.json
+    |   MagicAPI.csproj
+    |   MagicAPI.csproj.user
+    |   MagicAPI.http
+    |   MagicAPI.sln
+    |   Program.cs
+    |   WeatherForecast.cs
+    |   
+    +---bin
+    |   \---Debug
+    |       \---net8.0
+    |               appsettings.Development.json
+    |               appsettings.json
+    |               MagicAPI.deps.json
+    |               MagicAPI.dll
+    |               MagicAPI.exe
+    |               MagicAPI.pdb
+    |               MagicAPI.runtimeconfig.json
+    |               Microsoft.OpenApi.dll
+    |               Swashbuckle.AspNetCore.Swagger.dll
+    |               Swashbuckle.AspNetCore.SwaggerGen.dll
+    |               Swashbuckle.AspNetCore.SwaggerUI.dll
+    |               
+    +---Controllers
+    |       WeatherForecastController.cs
+    |       
+    +---obj
+    |   |   MagicAPI.csproj.nuget.dgspec.json
+    |   |   MagicAPI.csproj.nuget.g.props
+    |   |   MagicAPI.csproj.nuget.g.targets
+    |   |   project.assets.json
+    |   |   project.nuget.cache
+    |   |   
+    |   \---Debug
+    |       \---net8.0
+    |           |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    |           |   apphost.exe
+    |           |   MagicAPI.AssemblyInfo.cs
+    |           |   MagicAPI.AssemblyInfoInputs.cache
+    |           |   MagicAPI.assets.cache
+    |           |   MagicAPI.csproj.AssemblyReference.cache
+    |           |   MagicAPI.csproj.BuildWithSkipAnalyzers
+    |           |   MagicAPI.csproj.CoreCompileInputs.cache
+    |           |   MagicAPI.csproj.FileListAbsolute.txt
+    |           |   MagicAPI.csproj.Up2Date
+    |           |   MagicAPI.dll
+    |           |   MagicAPI.GeneratedMSBuildEditorConfig.editorconfig
+    |           |   MagicAPI.genruntimeconfig.cache
+    |           |   MagicAPI.GlobalUsings.g.cs
+    |           |   MagicAPI.MvcApplicationPartsAssemblyInfo.cache
+    |           |   MagicAPI.MvcApplicationPartsAssemblyInfo.cs
+    |           |   MagicAPI.pdb
+    |           |   staticwebassets.build.json
+    |           |   
+    |           +---ref
+    |           |       MagicAPI.dll
+    |           |       
+    |           +---refint
+    |           |       MagicAPI.dll
+    |           |       
+    |           \---staticwebassets
+    |                   msbuild.build.MagicAPI.props
+    |                   msbuild.buildMultiTargeting.MagicAPI.props
+    |                   msbuild.buildTransitive.MagicAPI.props
+    |                   
+    \---Properties
+            launchSettings.json
+            
+Folder PATH listing for volume New Volume
+Volume serial number is D428-1106
+D:.
+|   tree.txt
+|   
+\---MagicAPI
+    |   .gitignore
+    |   appsettings.Development.json
+    |   appsettings.json
+    |   MagicAPI.csproj
+    |   MagicAPI.csproj.user
+    |   MagicAPI.http
+    |   MagicAPI.sln
+    |   Program.cs
+    |   WeatherForecast.cs
+    |   
+    +---bin
+    |   \---Debug
+    |       \---net8.0
+    |               appsettings.Development.json
+    |               appsettings.json
+    |               MagicAPI.deps.json
+    |               MagicAPI.dll
+    |               MagicAPI.exe
+    |               MagicAPI.pdb
+    |               MagicAPI.runtimeconfig.json
+    |               Microsoft.OpenApi.dll
+    |               Swashbuckle.AspNetCore.Swagger.dll
+    |               Swashbuckle.AspNetCore.SwaggerGen.dll
+    |               Swashbuckle.AspNetCore.SwaggerUI.dll
+    |               
+    +---Controllers
+    |       WeatherForecastController.cs
+    |       
+    +---obj
+    |   |   MagicAPI.csproj.nuget.dgspec.json
+    |   |   MagicAPI.csproj.nuget.g.props
+    |   |   MagicAPI.csproj.nuget.g.targets
+    |   |   project.assets.json
+    |   |   project.nuget.cache
+    |   |   
+    |   \---Debug
+    |       \---net8.0
+    |           |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    |           |   apphost.exe
+    |           |   MagicAPI.AssemblyInfo.cs
+    |           |   MagicAPI.AssemblyInfoInputs.cache
+    |           |   MagicAPI.assets.cache
+    |           |   MagicAPI.csproj.AssemblyReference.cache
+    |           |   MagicAPI.csproj.BuildWithSkipAnalyzers
+    |           |   MagicAPI.csproj.CoreCompileInputs.cache
+    |           |   MagicAPI.csproj.FileListAbsolute.txt
+    |           |   MagicAPI.csproj.Up2Date
+    |           |   MagicAPI.dll
+    |           |   MagicAPI.GeneratedMSBuildEditorConfig.editorconfig
+    |           |   MagicAPI.genruntimeconfig.cache
+    |           |   MagicAPI.GlobalUsings.g.cs
+    |           |   MagicAPI.MvcApplicationPartsAssemblyInfo.cache
+    |           |   MagicAPI.MvcApplicationPartsAssemblyInfo.cs
+    |           |   MagicAPI.pdb
+    |           |   staticwebassets.build.json
+    |           |   
+    |           +---ref
+    |           |       MagicAPI.dll
+    |           |       
+    |           +---refint
+    |           |       MagicAPI.dll
+    |           |       
+    |           \---staticwebassets
+    |                   msbuild.build.MagicAPI.props
+    |                   msbuild.buildMultiTargeting.MagicAPI.props
+    |                   msbuild.buildTransitive.MagicAPI.props
+    |                   
+    \---Properties
+            launchSettings.json
+            
