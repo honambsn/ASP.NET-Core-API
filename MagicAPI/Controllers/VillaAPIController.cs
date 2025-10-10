@@ -12,13 +12,32 @@ namespace MagicAPI.Controllers
     public class VillaAPIController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<VillaDTO> GetVillas() {
-            return VillaStore.villaList;
+        public ActionResult <IEnumerable<VillaDTO>> GetVillas() {
+            return Ok(VillaStore.villaList);
         }
 
-        [HttpGet("id")]
-        public VillaDTO GetVillaByID(int id) {
+        [HttpGet("get2/{id:int}")]
+        public VillaDTO GetVillaByID2(int id) {
             return VillaStore.villaList.FirstOrDefault(u => u.ID == id);
+        }
+
+        [HttpGet("{id:int}")]
+        //[HttpGet("id")]
+        //public VillaDTO GetVillaByID(int id) {
+        public ActionResult<VillaDTO> GetVillaByID(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+
+            var villa = VillaStore.villaList.FirstOrDefault(u => u.ID == id);
+            if (villa == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(villa);
         }
     }
 }
