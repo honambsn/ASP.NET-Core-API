@@ -15,15 +15,23 @@ namespace MagicAPI.Controllers
         public ActionResult <IEnumerable<VillaDTO>> GetVillas() {
             return Ok(VillaStore.villaList);
         }
-
+        
         [HttpGet("get2/{id:int}")]
         public VillaDTO GetVillaByID2(int id) {
             return VillaStore.villaList.FirstOrDefault(u => u.ID == id);
         }
 
         [HttpGet("{id:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(400)]
+        //[ProducesResponseType(200, Type = typeof(VillaDTO))]
+        //[ProducesResponseType(404)]
+        //[ProducesResponseType(400)]
         //[HttpGet("id")]
         //public VillaDTO GetVillaByID(int id) {
+        //public ActionResult<VillaDTO> GetVillaByID(int id)
+        //public ActionResult GetVillaByID(int id)
         public ActionResult<VillaDTO> GetVillaByID(int id)
         {
             if (id == 0)
