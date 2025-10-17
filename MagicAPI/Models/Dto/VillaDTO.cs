@@ -1,8 +1,14 @@
-﻿namespace MagicAPI.Models.Dto
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MagicAPI.Models.Dto
 {
     public class VillaDTO
     {
         public int ID { get; set; }
+        [Required]
+        [MaxLength(30)]
         public string Name { get; set; }
+        public int Occupancy { get; set; }
+        public int Sqft { get; set; }
     }
 }
